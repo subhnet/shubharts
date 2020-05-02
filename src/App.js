@@ -1,18 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './App.css';
 import MyGallery from './Gallery/MyGallery';
 import Header from './components/Header';
 
-
-
-function App() {
-
+const App = props => {
   return (
     <div className="App">
       <Header />
-      <MyGallery />
+      <MyGallery {...props} />
     </div>
   );
 }
 
-export default App;
+
+export default App

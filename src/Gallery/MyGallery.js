@@ -1,51 +1,11 @@
 
 import React, { useState, useEffect } from 'react'
-import irfan from '../images/full/irfan.jpg'
-import arya from '../images/full/arya.jpg'
-import joker from '../images/full/joker.jpg'
-import witcher from '../images/full/witcher.jpg'
-import irfanTn from '../images/thumbnail/irfan_tn.jpg'
-import aryaTn from '../images/thumbnail/arya_tn.jpg'
-import jokerTn from '../images/thumbnail/joker_tn.jpg'
-import witcherTn from '../images/thumbnail/witcher_tn.jpg'
 import GridList from '@material-ui/core/GridList';
 import { GridListTile, GridListTileBar, makeStyles } from '@material-ui/core';
 import Dialog from '@material-ui/core/Dialog';
-import Carousel, { Modal, ModalGateway } from 'react-images';
-
-const IMAGES =
-    [{
-        src: irfan,
-        thumbnail: irfanTn,
-        thumbnailWidth: 350,
-        thumbnailHeight: 400,
-        isSelected: true,
-        caption: "Irfan Khan"
-    },
-    {
-        src: arya,
-        thumbnail: aryaTn,
-        thumbnailWidth: 320,
-        thumbnailHeight: 400,
-        caption: "Arya Stark"
-    },
-
-    {
-        src: joker,
-        thumbnail: jokerTn,
-        thumbnailWidth: 320,
-        thumbnailHeight: 400,
-        caption: "Joker"
-    },
-    {
-        src: witcher,
-        thumbnail: witcherTn,
-        thumbnailWidth: 500,
-        thumbnailHeight: 400,
-        caption: "The Witcher"
-    }
-    ]
-
+import withWidth, { isWidthUp } from '@material-ui/core/withWidth';
+import { IMAGES } from './../constants/images';
+import { useWindowSize } from './../util/useWindowSize';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -80,40 +40,56 @@ const MyGallery = props => {
 
     const [open, setOpen] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
+
+    const currentWidth = useWindowSize().width;
     // const [selectedImage, setSelectedImage] = useState(IMAGES[currentIndex]);
     const classes = useStyles();
 
     const handleOpenImage = (index) => {
         setOpen(true);
-        // setSelectedImage(imageObj);
         setCurrentIndex(index)
     };
 
-    const handleClose = () => {
-        setOpen(false);
-    };
+    const handleClose = () => setOpen(false)
+
+    const getGridListCols = () => {
+        //is mobile
+        if (currentWidth < 480) {
+            return 1;
+        }
+        //is small
+        if (currentWidth < 840) {
+            return 2;
+        }
+        //large
+        if (currentWidth < 1024) {
+            return 3;
+        }
+        //very large
+        return 4;
+    }
 
 
     return (
         <div className={classes.root}>
-            <GridList cellHeight={250} cols={4} spacing={30} className={classes.gridList}>
+            <GridList
+                cellHeight={250}
+                spacing={30}
+                cols={getGridListCols()}
+                className={classes.gridList}
+            >
                 {IMAGES.map((tile, index) => (
                     <GridListTile
                         key={tile.img}
                         cols={tile.cols || 1}
                         className={classes.icon}
                     >
-                        {/* <Image */}
-                            {/* src={tile.thumbnail} */}
-                            {/* > */}
-
-                            <img
-                                src={tile.thumbnail}
-                                alt="image_alt"
-                                className={classes.thumbnail}
-                                onClick={() => handleOpenImage(index)}
-                            />
-                        {/* </Image> */}
+                        <img
+                            src={tile.thumbnail}
+                            alt="image_alt"
+                            className={classes.thumbnail}
+                            onClick={() => handleOpenImage(index)}
+                        />
                         <GridListTileBar
                             title={tile.caption}
                             onClick={() => handleOpenImage(index)}
