@@ -103,17 +103,17 @@ const MyGallery = props => {
                         cols={tile.cols || 1}
                         className={classes.icon}
                     >
-                        <Image
-                            src={tile.thumbnail}
-                            onClick={() => handleOpenImage(index)}
-                        >
+                        {/* <Image */}
+                            {/* src={tile.thumbnail} */}
+                            {/* > */}
 
                             <img
-                                src={tile.src}
+                                src={tile.thumbnail}
                                 alt="image_alt"
                                 className={classes.thumbnail}
+                                onClick={() => handleOpenImage(index)}
                             />
-                        </Image>
+                        {/* </Image> */}
                         <GridListTileBar
                             title={tile.caption}
                             onClick={() => handleOpenImage(index)}
@@ -136,7 +136,17 @@ const MyGallery = props => {
             // maxWidth={200}
             // scroll={'body'}
             >
-                <img src={IMAGES[currentIndex].src} alt="image_alt" />
+                <Image>
+
+                    <img
+                        src={IMAGES[currentIndex].src}
+                        alt="image_alt"
+                        style={{
+                            maxWidth: '100%',
+                            height: '100%'
+                        }}
+                    />
+                </Image>
             </Dialog>
             {/* <ModalGateway>
                 {open ? (
@@ -157,17 +167,19 @@ const MyGallery = props => {
 }
 
 
-const gutter = 2;
 
 const Image = (props) => (
     <div
         style={{
-            backgroundColor: '#eee',
+            background: 'black',
+            textAlign: 'center',
             boxSizing: 'border-box',
             overflow: 'hidden',
             ':hover': {
                 opacity: 0.9,
             },
+            // height: 'calc(50% - 10px)'
+            height: '800px'
         }}
         {...props}
     />
