@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/shubharts/static/css/main.8ab6f918.chunk.css",
-    "main.js": "/shubharts/static/js/main.163023f8.chunk.js",
-    "main.js.map": "/shubharts/static/js/main.163023f8.chunk.js.map",
+    "main.js": "/shubharts/static/js/main.1405c9ad.chunk.js",
+    "main.js.map": "/shubharts/static/js/main.1405c9ad.chunk.js.map",
     "runtime-main.js": "/shubharts/static/js/runtime-main.4acdb637.js",
     "runtime-main.js.map": "/shubharts/static/js/runtime-main.4acdb637.js.map",
     "static/js/2.752564ed.chunk.js": "/shubharts/static/js/2.752564ed.chunk.js",
     "static/js/2.752564ed.chunk.js.map": "/shubharts/static/js/2.752564ed.chunk.js.map",
     "index.html": "/shubharts/index.html",
-    "precache-manifest.b3cad9f6e9f15b288ad3b01146b38e31.js": "/shubharts/precache-manifest.b3cad9f6e9f15b288ad3b01146b38e31.js",
+    "precache-manifest.f49fdaed191603982127d96a86cf09d9.js": "/shubharts/precache-manifest.f49fdaed191603982127d96a86cf09d9.js",
     "service-worker.js": "/shubharts/service-worker.js",
     "static/css/main.8ab6f918.chunk.css.map": "/shubharts/static/css/main.8ab6f918.chunk.css.map",
     "static/js/2.752564ed.chunk.js.LICENSE.txt": "/shubharts/static/js/2.752564ed.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.4acdb637.js",
     "static/js/2.752564ed.chunk.js",
     "static/css/main.8ab6f918.chunk.css",
-    "static/js/main.163023f8.chunk.js"
+    "static/js/main.1405c9ad.chunk.js"
   ]
 }
