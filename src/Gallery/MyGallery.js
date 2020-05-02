@@ -26,6 +26,9 @@ const useStyles = makeStyles((theme) => ({
     thumbnail: {
         cursor: 'pointer',
         maxWidth: '100%',
+        '&:hover': {
+            opacity: 0.9,
+        }
     },
     dialog: {
         margin: 'auto',
@@ -66,7 +69,7 @@ const MyGallery = props => {
             return 3;
         }
         //very large
-        return 4;
+        return 3;
     }
 
 
@@ -125,21 +128,7 @@ const MyGallery = props => {
                     />
                 </Image>
             </Dialog>
-            {/* <ModalGateway>
-                {open ? (
-                    <Modal onClose={handleClose}>
-                        <Carousel
-                            views={IMAGES}
-                            currentIndex={currentIndex}
-                            frameProps={{
-                                autoSize: 'height'
-                            }}
-                        />
-                    </Modal>
-                ) : null}
-            </ModalGateway> */}
         </div>
-
     )
 }
 
