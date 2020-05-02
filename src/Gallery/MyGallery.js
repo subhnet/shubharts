@@ -53,6 +53,8 @@ const useStyles = makeStyles((theme) => ({
         flexWrap: 'wrap',
         justifyContent: 'space-around',
         overflow: 'hidden',
+        marginTop: '10px',
+        padding: '10px'
     },
     gridList: {
         // width: 500,
@@ -64,6 +66,12 @@ const useStyles = makeStyles((theme) => ({
     thumbnail: {
         cursor: 'pointer',
         maxWidth: '100%',
+    },
+    dialog: {
+        margin: 'auto',
+        width: '100%',
+        maxWidth: 900,
+        overflowX: 'hidden'
     }
 }));
 
@@ -88,7 +96,7 @@ const MyGallery = props => {
 
     return (
         <div className={classes.root}>
-            <GridList cellHeight={160} cols={4} spacing={30} className={classes.gridList}>
+            <GridList cellHeight={250} cols={4} spacing={30} className={classes.gridList}>
                 {IMAGES.map((tile, index) => (
                     <GridListTile
                         key={tile.img}
@@ -113,7 +121,21 @@ const MyGallery = props => {
                     </GridListTile>
                 ))}
             </GridList>
-            <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
+            <Dialog
+                className={classes.dialog}
+                classes={{
+                    paper: classes.dialog
+                }}
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                // fullWidth={true}
+                modal={true}
+                autoScrollBodyContent={false}
+                autoDetectWindowHeight={false}
+                open={open}
+            // maxWidth={200}
+            // scroll={'body'}
+            >
                 <img src={IMAGES[currentIndex].src} alt="image_alt" />
             </Dialog>
             {/* <ModalGateway>
