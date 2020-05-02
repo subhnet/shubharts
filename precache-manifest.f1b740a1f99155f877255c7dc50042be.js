@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "423295f914c99522bd766dce9e119c57",
+    "revision": "8d2a620c90067a824991fd7dbd263149",
     "url": "/shubharts/index.html"
   },
   {
-    "revision": "254f34c2537c04b47c36",
+    "revision": "9053876ee9e966e8ec2e",
     "url": "/shubharts/static/css/main.8ab6f918.chunk.css"
   },
   {
-    "revision": "1f2a8e38956dfe2be42f",
-    "url": "/shubharts/static/js/2.87b827be.chunk.js"
+    "revision": "95aa84cbdf4d195d3bee",
+    "url": "/shubharts/static/js/2.bb035423.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/shubharts/static/js/2.87b827be.chunk.js.LICENSE.txt"
+    "url": "/shubharts/static/js/2.bb035423.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "254f34c2537c04b47c36",
-    "url": "/shubharts/static/js/main.7f207fc2.chunk.js"
+    "revision": "9053876ee9e966e8ec2e",
+    "url": "/shubharts/static/js/main.e34a71ba.chunk.js"
   },
   {
     "revision": "9b25bf51164cd1c75d04",
@@ -38,6 +38,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e8ae3f2915a47c2319ec3b0b89db96c5",
     "url": "/shubharts/static/media/baby_tn.e8ae3f29.jpg"
+  },
+  {
+    "revision": "6bc7be22dff512522ea45aa2ca68b132",
+    "url": "/shubharts/static/media/escape.6bc7be22.jpg"
+  },
+  {
+    "revision": "2b9e16eaa310a6315f143cdfa1de3857",
+    "url": "/shubharts/static/media/escape_tn.2b9e16ea.jpg"
+  },
+  {
+    "revision": "746b4ff86bd8f23dc4282ff6f5ad93df",
+    "url": "/shubharts/static/media/faces.746b4ff8.jpg"
+  },
+  {
+    "revision": "38c949bf42aa3c307b3c6b23da3a21ad",
+    "url": "/shubharts/static/media/faces_tn.38c949bf.jpg"
   },
   {
     "revision": "e4dd22fee6dd59d9f67ac38382c95598",
@@ -62,6 +78,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "01b4103de107b353715060a02b33b4da",
     "url": "/shubharts/static/media/joker_tn.01b4103d.jpg"
+  },
+  {
+    "revision": "581f16dbfa14ede4483f8ffb541cbf66",
+    "url": "/shubharts/static/media/khaleesi.581f16db.jpg"
+  },
+  {
+    "revision": "259d4af627d93c826ab6d6fd5bf251db",
+    "url": "/shubharts/static/media/khaleesi_tn.259d4af6.jpg"
+  },
+  {
+    "revision": "5fcbc7d7cdd47d7c6c5463e2b82e40e2",
+    "url": "/shubharts/static/media/logan.5fcbc7d7.jpg"
+  },
+  {
+    "revision": "5fcbc7d7cdd47d7c6c5463e2b82e40e2",
+    "url": "/shubharts/static/media/logan_tn.5fcbc7d7.jpg"
+  },
+  {
+    "revision": "22f974897be235cfdb024a863fbf6a44",
+    "url": "/shubharts/static/media/panther.22f97489.jpg"
+  },
+  {
+    "revision": "95df72ccb7ddaa06411219cf0647f9e3",
+    "url": "/shubharts/static/media/panther_tn.95df72cc.jpg"
   },
   {
     "revision": "ef0815e06ac2e5b9ce53b02f0c4f781f",
