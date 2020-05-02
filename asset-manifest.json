@@ -1,30 +1,30 @@
 {
   "files": {
     "main.css": "/shubharts/static/css/main.8ab6f918.chunk.css",
-    "main.js": "/shubharts/static/js/main.fe8e407d.chunk.js",
-    "main.js.map": "/shubharts/static/js/main.fe8e407d.chunk.js.map",
+    "main.js": "/shubharts/static/js/main.163023f8.chunk.js",
+    "main.js.map": "/shubharts/static/js/main.163023f8.chunk.js.map",
     "runtime-main.js": "/shubharts/static/js/runtime-main.4acdb637.js",
     "runtime-main.js.map": "/shubharts/static/js/runtime-main.4acdb637.js.map",
-    "static/js/2.ec98ec34.chunk.js": "/shubharts/static/js/2.ec98ec34.chunk.js",
-    "static/js/2.ec98ec34.chunk.js.map": "/shubharts/static/js/2.ec98ec34.chunk.js.map",
+    "static/js/2.752564ed.chunk.js": "/shubharts/static/js/2.752564ed.chunk.js",
+    "static/js/2.752564ed.chunk.js.map": "/shubharts/static/js/2.752564ed.chunk.js.map",
     "index.html": "/shubharts/index.html",
-    "precache-manifest.f20c1c7862333aa9f79e0ef37395656e.js": "/shubharts/precache-manifest.f20c1c7862333aa9f79e0ef37395656e.js",
+    "precache-manifest.b3cad9f6e9f15b288ad3b01146b38e31.js": "/shubharts/precache-manifest.b3cad9f6e9f15b288ad3b01146b38e31.js",
     "service-worker.js": "/shubharts/service-worker.js",
     "static/css/main.8ab6f918.chunk.css.map": "/shubharts/static/css/main.8ab6f918.chunk.css.map",
-    "static/js/2.ec98ec34.chunk.js.LICENSE.txt": "/shubharts/static/js/2.ec98ec34.chunk.js.LICENSE.txt",
+    "static/js/2.752564ed.chunk.js.LICENSE.txt": "/shubharts/static/js/2.752564ed.chunk.js.LICENSE.txt",
     "static/media/arya.jpg": "/shubharts/static/media/arya.825fd16c.jpg",
-    "static/media/arya_tn.jpg": "/shubharts/static/media/arya_tn.62844fec.jpg",
+    "static/media/arya_tn.jpg": "/shubharts/static/media/arya_tn.66f063ac.jpg",
     "static/media/irfan.jpg": "/shubharts/static/media/irfan.2935f156.jpg",
-    "static/media/irfan_tn.jpg": "/shubharts/static/media/irfan_tn.487436d3.jpg",
+    "static/media/irfan_tn.jpg": "/shubharts/static/media/irfan_tn.7cc50813.jpg",
     "static/media/joker.jpg": "/shubharts/static/media/joker.f4e24cb3.jpg",
-    "static/media/joker_tn.jpg": "/shubharts/static/media/joker_tn.3abf1b11.jpg",
+    "static/media/joker_tn.jpg": "/shubharts/static/media/joker_tn.01b4103d.jpg",
     "static/media/witcher.jpg": "/shubharts/static/media/witcher.ef0815e0.jpg",
-    "static/media/witcher_tn.jpg": "/shubharts/static/media/witcher_tn.c154bd0d.jpg"
+    "static/media/witcher_tn.jpg": "/shubharts/static/media/witcher_tn.91bbde30.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4acdb637.js",
-    "static/js/2.ec98ec34.chunk.js",
+    "static/js/2.752564ed.chunk.js",
     "static/css/main.8ab6f918.chunk.css",
-    "static/js/main.fe8e407d.chunk.js"
+    "static/js/main.163023f8.chunk.js"
   ]
 }

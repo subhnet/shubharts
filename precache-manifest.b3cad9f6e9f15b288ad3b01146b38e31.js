@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "788129b83088053c1eb0a739329136b7",
+    "revision": "b45b8d3cde989a56bf7b0dd922032072",
     "url": "/shubharts/index.html"
   },
   {
-    "revision": "da6cbf8d6542539de443",
+    "revision": "f2888d5e877caa8e5ff7",
     "url": "/shubharts/static/css/main.8ab6f918.chunk.css"
   },
   {
-    "revision": "4326cd82209007af069a",
-    "url": "/shubharts/static/js/2.ec98ec34.chunk.js"
+    "revision": "f31c9c370b3fb25fe426",
+    "url": "/shubharts/static/js/2.752564ed.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/shubharts/static/js/2.ec98ec34.chunk.js.LICENSE.txt"
+    "url": "/shubharts/static/js/2.752564ed.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "da6cbf8d6542539de443",
-    "url": "/shubharts/static/js/main.fe8e407d.chunk.js"
+    "revision": "f2888d5e877caa8e5ff7",
+    "url": "/shubharts/static/js/main.163023f8.chunk.js"
   },
   {
     "revision": "9b25bf51164cd1c75d04",
@@ -28,31 +28,31 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/shubharts/static/media/arya.825fd16c.jpg"
   },
   {
-    "revision": "62844fecd257f698a9ca7f1292d2e627",
-    "url": "/shubharts/static/media/arya_tn.62844fec.jpg"
+    "revision": "66f063ac712ed113b212f96b56f0fd5e",
+    "url": "/shubharts/static/media/arya_tn.66f063ac.jpg"
   },
   {
     "revision": "2935f156dec53490bb80f8abdf08945f",
     "url": "/shubharts/static/media/irfan.2935f156.jpg"
   },
   {
-    "revision": "487436d359cab9a11f7e363061586410",
-    "url": "/shubharts/static/media/irfan_tn.487436d3.jpg"
+    "revision": "7cc508133c5bccf00c802affb490acb5",
+    "url": "/shubharts/static/media/irfan_tn.7cc50813.jpg"
   },
   {
     "revision": "f4e24cb34fbbda564a676529f857c549",
     "url": "/shubharts/static/media/joker.f4e24cb3.jpg"
   },
   {
-    "revision": "3abf1b1131e7124fbe724c2799cd45e0",
-    "url": "/shubharts/static/media/joker_tn.3abf1b11.jpg"
+    "revision": "01b4103de107b353715060a02b33b4da",
+    "url": "/shubharts/static/media/joker_tn.01b4103d.jpg"
   },
   {
     "revision": "ef0815e06ac2e5b9ce53b02f0c4f781f",
     "url": "/shubharts/static/media/witcher.ef0815e0.jpg"
   },
   {
-    "revision": "c154bd0d4eff7b129ec2f0fe13821c03",
-    "url": "/shubharts/static/media/witcher_tn.c154bd0d.jpg"
+    "revision": "91bbde3041c2a6dc363c6e2238eade17",
+    "url": "/shubharts/static/media/witcher_tn.91bbde30.jpg"
   }
 ]);
