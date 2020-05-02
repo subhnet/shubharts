@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     },
     gridList: {
         // width: 500,
-        height: 550,
+        // height: 550,
     },
     icon: {
         color: 'rgba(255, 255, 255, 0.54)',
@@ -118,8 +118,9 @@ const MyGallery = props => {
                         src={IMAGES[currentIndex].src}
                         alt="image_alt"
                         style={{
-                            maxWidth: '100%',
-                            height: '100%'
+                            width: '100%',
+                            height: '100%',
+                            objectFit: 'scale-down'
                         }}
                     />
                 </Image>
@@ -155,7 +156,8 @@ const Image = (props) => (
                 opacity: 0.9,
             },
             // height: 'calc(50% - 10px)'
-            height: '800px'
+            // maxHeight: '800px'
+            // maxWidth: 800
         }}
         {...props}
     />
