@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/shubharts.github.io/static/css/main.d1b05096.chunk.css",
-    "main.js": "/shubharts.github.io/static/js/main.07882427.chunk.js",
-    "main.js.map": "/shubharts.github.io/static/js/main.07882427.chunk.js.map",
-    "runtime-main.js": "/shubharts.github.io/static/js/runtime-main.eeab8bc3.js",
-    "runtime-main.js.map": "/shubharts.github.io/static/js/runtime-main.eeab8bc3.js.map",
-    "static/js/2.b05e1701.chunk.js": "/shubharts.github.io/static/js/2.b05e1701.chunk.js",
-    "static/js/2.b05e1701.chunk.js.map": "/shubharts.github.io/static/js/2.b05e1701.chunk.js.map",
-    "index.html": "/shubharts.github.io/index.html",
-    "precache-manifest.1fcd23901f57f0f67379fb6cec03b9c0.js": "/shubharts.github.io/precache-manifest.1fcd23901f57f0f67379fb6cec03b9c0.js",
-    "service-worker.js": "/shubharts.github.io/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/shubharts.github.io/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.b05e1701.chunk.js.LICENSE.txt": "/shubharts.github.io/static/js/2.b05e1701.chunk.js.LICENSE.txt",
-    "static/media/arya.jpg": "/shubharts.github.io/static/media/arya.825fd16c.jpg",
-    "static/media/arya_tn.jpg": "/shubharts.github.io/static/media/arya_tn.62844fec.jpg",
-    "static/media/irfan.jpg": "/shubharts.github.io/static/media/irfan.2935f156.jpg",
-    "static/media/irfan_tn.jpg": "/shubharts.github.io/static/media/irfan_tn.487436d3.jpg",
-    "static/media/joker.jpg": "/shubharts.github.io/static/media/joker.f4e24cb3.jpg",
-    "static/media/joker_tn.jpg": "/shubharts.github.io/static/media/joker_tn.3abf1b11.jpg",
-    "static/media/witcher.jpg": "/shubharts.github.io/static/media/witcher.ef0815e0.jpg",
-    "static/media/witcher_tn.jpg": "/shubharts.github.io/static/media/witcher_tn.c154bd0d.jpg"
+    "main.css": "/static/css/main.d1b05096.chunk.css",
+    "main.js": "/static/js/main.9474b33a.chunk.js",
+    "main.js.map": "/static/js/main.9474b33a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.18e32146.js",
+    "runtime-main.js.map": "/static/js/runtime-main.18e32146.js.map",
+    "static/js/2.b05e1701.chunk.js": "/static/js/2.b05e1701.chunk.js",
+    "static/js/2.b05e1701.chunk.js.map": "/static/js/2.b05e1701.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5dd8c2c0c6d32d10aad62607cdbc799b.js": "/precache-manifest.5dd8c2c0c6d32d10aad62607cdbc799b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.b05e1701.chunk.js.LICENSE.txt": "/static/js/2.b05e1701.chunk.js.LICENSE.txt",
+    "static/media/arya.jpg": "/static/media/arya.825fd16c.jpg",
+    "static/media/arya_tn.jpg": "/static/media/arya_tn.62844fec.jpg",
+    "static/media/irfan.jpg": "/static/media/irfan.2935f156.jpg",
+    "static/media/irfan_tn.jpg": "/static/media/irfan_tn.487436d3.jpg",
+    "static/media/joker.jpg": "/static/media/joker.f4e24cb3.jpg",
+    "static/media/joker_tn.jpg": "/static/media/joker_tn.3abf1b11.jpg",
+    "static/media/witcher.jpg": "/static/media/witcher.ef0815e0.jpg",
+    "static/media/witcher_tn.jpg": "/static/media/witcher_tn.c154bd0d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.eeab8bc3.js",
+    "static/js/runtime-main.18e32146.js",
     "static/js/2.b05e1701.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.07882427.chunk.js"
+    "static/js/main.9474b33a.chunk.js"
   ]
 }
