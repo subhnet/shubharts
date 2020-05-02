@@ -24,6 +24,14 @@ import escape from '../images/full/escape.jpg'
 import escapeTn from '../images/thumbnail/escape_tn.jpg'
 import logan from '../images/full/logan.jpg'
 import loganTn from '../images/thumbnail/logan_tn.jpg'
+import lady from '../images/full/lady.JPG'
+import ladyTn from '../images/thumbnail/lady_tn.JPG'
+
+import jon from '../images/full/jon.jpg'
+import jonTn from '../images/thumbnail/jon_tn.jpg'
+
+import krishna from '../images/full/krishna.JPG'
+import krishnaTn from '../images/thumbnail/krishna_tn.JPG'
 
 
 export const IMAGES =
@@ -40,7 +48,7 @@ export const IMAGES =
         thumbnail: aryaTn,
         thumbnailWidth: 320,
         thumbnailHeight: 400,
-        caption: "Arya Stark"
+        caption: "Not Today"
     },
 
     {
@@ -91,5 +99,20 @@ export const IMAGES =
         src: panther,
         thumbnail: pantherTn,
         caption: "Wakanda Forever"
+    },
+    {
+        src: lady,
+        thumbnail: ladyTn,
+        caption: ""
+    },
+    {
+        src: krishna,
+        thumbnail: krishnaTn,
+        caption: "Krishna"
+    },
+    {
+        src: jon,
+        thumbnail: jonTn,
+        caption: "White Walker"
     }
     ]

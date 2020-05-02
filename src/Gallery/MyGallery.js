@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'space-around',
         overflow: 'hidden',
         marginTop: '10px',
-        padding: '10px'
+        padding: '10px 35px'
     },
     gridList: {
         // width: 500,
@@ -77,7 +77,7 @@ const MyGallery = props => {
         <div className={classes.root}>
             <GridList
                 cellHeight={250}
-                spacing={30}
+                spacing={40}
                 cols={getGridListCols()}
                 className={classes.gridList}
             >
