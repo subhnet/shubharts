@@ -36,6 +36,7 @@ import krishnaTn from '../images/thumbnail/krishna_tn.JPG'
 
 export const IMAGES =
     [{
+        art_id: 0,
         src: irfan,
         thumbnail: irfanTn,
         thumbnailWidth: 350,
@@ -44,6 +45,7 @@ export const IMAGES =
         caption: "Irfan Khan"
     },
     {
+        art_id: 1,
         src: arya,
         thumbnail: aryaTn,
         thumbnailWidth: 320,
@@ -52,6 +54,7 @@ export const IMAGES =
     },
 
     {
+        art_id: 2,
         src: joker,
         thumbnail: jokerTn,
         thumbnailWidth: 320,
@@ -59,6 +62,7 @@ export const IMAGES =
         caption: "Joker"
     },
     {
+        art_id: 3,
         src: witcher,
         thumbnail: witcherTn,
         thumbnailWidth: 500,
@@ -66,51 +70,61 @@ export const IMAGES =
         caption: "The Witcher"
     },
     {
+        art_id: 4,
         src: baby,
         thumbnail: babyTn,
         caption: "Quarantine Baby"
     },
     {
+        art_id: 5,
         src: logan,
         thumbnail: loganTn,
         caption: "Logan"
     },
     {
+        art_id: 6,
         src: faces,
         thumbnail: facesTn,
         caption: "Multi Faced"
     },
     {
+        art_id: 7,
         src: girl,
         thumbnail: girlTn,
         caption: ""
     },
     {
+        art_id: 8,
         src: khaleesi,
         thumbnail: khaleesiTn,
         caption: "Mother of Dragons"
     },
     {
+        art_id: 9,
         src: escape,
         thumbnail: escapeTn,
         caption: "The Escape"
     },
     {
+        art_id: 10,
         src: panther,
         thumbnail: pantherTn,
         caption: "Wakanda Forever"
     },
     {
+        art_id: 11,
         src: lady,
         thumbnail: ladyTn,
         caption: ""
     },
     {
+        art_id: 12,
         src: krishna,
         thumbnail: krishnaTn,
         caption: "Krishna"
     },
     {
+        art_id: 13,
         src: jon,
         thumbnail: jonTn,
         caption: "White Walker"

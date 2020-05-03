@@ -3,9 +3,9 @@ import React, { useState, useEffect } from 'react'
 import GridList from '@material-ui/core/GridList';
 import { GridListTile, GridListTileBar, makeStyles } from '@material-ui/core';
 import Dialog from '@material-ui/core/Dialog';
-import withWidth, { isWidthUp } from '@material-ui/core/withWidth';
 import { IMAGES } from './../constants/images';
 import { useWindowSize } from './../util/useWindowSize';
+import ReactGa from 'react-ga';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -51,6 +51,14 @@ const MyGallery = props => {
     const handleOpenImage = (index) => {
         setOpen(true);
         setCurrentIndex(index)
+
+        console.log('oolala', window.location.hostname);
+        if (window.location.host.indexOf('localhost') == -1) {
+            ReactGa.event({
+                category: 'Art Buttons',
+                action: `Viewed Art image ${IMAGES[index].art_id} - ${IMAGES[index].caption}`
+            })
+        }
     };
 
     const handleClose = () => setOpen(false)
@@ -71,6 +79,7 @@ const MyGallery = props => {
         //very large
         return 3;
     }
+
 
 
     return (
