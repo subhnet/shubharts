@@ -33,6 +33,9 @@ import jonTn from '../images/thumbnail/jon_tn.jpg'
 import krishna from '../images/full/krishna.JPG'
 import krishnaTn from '../images/thumbnail/krishna_tn.JPG'
 
+import scribbleMan from '../images/full/scribbleman.jpeg'
+import scribbleManTn from '../images/thumbnail/scribbleman_tn.jpeg'
+
 
 export const IMAGES =
     [{
@@ -60,6 +63,12 @@ export const IMAGES =
         thumbnailWidth: 320,
         thumbnailHeight: 400,
         caption: "Joker"
+    },
+    {
+        art_id: 14,
+        src: scribbleMan,
+        thumbnail: scribbleManTn,
+        caption: "Scribble Man"
     },
     {
         art_id: 3,
