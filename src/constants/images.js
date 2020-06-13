@@ -44,7 +44,7 @@ import scribbleMan from '../images/full/scribbleman.jpeg'
 import scribbleManTn from '../images/thumbnail/scribbleman_tn.jpeg'
 
 import elephant from '../images/full/elephant.jpg'
-import elephantTn from '../images/thumbnail/elephant.jpg'
+import elephantTn from '../images/thumbnail/elephant_tn.jpg'
 
 
 export const IMAGES =
