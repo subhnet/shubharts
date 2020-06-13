@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/shubharts/static/css/main.8ab6f918.chunk.css",
-    "main.js": "/shubharts/static/js/main.acf95895.chunk.js",
-    "main.js.map": "/shubharts/static/js/main.acf95895.chunk.js.map",
+    "main.js": "/shubharts/static/js/main.00c3ae31.chunk.js",
+    "main.js.map": "/shubharts/static/js/main.00c3ae31.chunk.js.map",
     "runtime-main.js": "/shubharts/static/js/runtime-main.4acdb637.js",
     "runtime-main.js.map": "/shubharts/static/js/runtime-main.4acdb637.js.map",
-    "static/js/2.fed2971c.chunk.js": "/shubharts/static/js/2.fed2971c.chunk.js",
-    "static/js/2.fed2971c.chunk.js.map": "/shubharts/static/js/2.fed2971c.chunk.js.map",
+    "static/js/2.139cd23b.chunk.js": "/shubharts/static/js/2.139cd23b.chunk.js",
+    "static/js/2.139cd23b.chunk.js.map": "/shubharts/static/js/2.139cd23b.chunk.js.map",
     "index.html": "/shubharts/index.html",
-    "precache-manifest.3815b73cbfca1450f40132ca7edaa6fa.js": "/shubharts/precache-manifest.3815b73cbfca1450f40132ca7edaa6fa.js",
+    "precache-manifest.926fdf3f3ce3167a05f0c2d558a2243a.js": "/shubharts/precache-manifest.926fdf3f3ce3167a05f0c2d558a2243a.js",
     "service-worker.js": "/shubharts/service-worker.js",
     "static/css/main.8ab6f918.chunk.css.map": "/shubharts/static/css/main.8ab6f918.chunk.css.map",
-    "static/js/2.fed2971c.chunk.js.LICENSE.txt": "/shubharts/static/js/2.fed2971c.chunk.js.LICENSE.txt",
+    "static/js/2.139cd23b.chunk.js.LICENSE.txt": "/shubharts/static/js/2.139cd23b.chunk.js.LICENSE.txt",
     "static/media/arya.jpg": "/shubharts/static/media/arya.825fd16c.jpg",
     "static/media/arya_tn.jpg": "/shubharts/static/media/arya_tn.66f063ac.jpg",
     "static/media/baby.jpg": "/shubharts/static/media/baby.7d123feb.jpg",
     "static/media/baby_tn.jpg": "/shubharts/static/media/baby_tn.e8ae3f29.jpg",
+    "static/media/elephant.jpg": "/shubharts/static/media/elephant.7482f6c3.jpg",
+    "static/media/elephant_tn.jpg": "/shubharts/static/media/elephant_tn.10195c01.jpg",
     "static/media/escape.jpg": "/shubharts/static/media/escape.6bc7be22.jpg",
     "static/media/escape_tn.jpg": "/shubharts/static/media/escape_tn.2b9e16ea.jpg",
     "static/media/faces.jpg": "/shubharts/static/media/faces.746b4ff8.jpg",
@@ -45,8 +47,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4acdb637.js",
-    "static/js/2.fed2971c.chunk.js",
+    "static/js/2.139cd23b.chunk.js",
     "static/css/main.8ab6f918.chunk.css",
-    "static/js/main.acf95895.chunk.js"
+    "static/js/main.00c3ae31.chunk.js"
   ]
 }
