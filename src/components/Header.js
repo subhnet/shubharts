@@ -41,7 +41,15 @@ const Header = props => {
             <AppBar position="static" className={classes.bar}>
                 <Toolbar>
                     <span className={classes.title}>
-                        Artworks by Subhransu
+                        <span style={{ color: "#FFEC94" }}>A</span>
+                        <span style={{ color: "#FFAEAE" }}>r</span>
+                        <span style={{ color: "#FFF0AA" }}>t</span>
+                        <span style={{ color: "#B0E57C" }}>w</span>
+                        <span style={{ color: "#B4D8E7" }}>o</span>
+                        <span style={{ color: "#56BAEC" }}>r</span>
+                        <span style={{ color: "#FF8000" }}>k</span>
+                        <span style={{ color: "#00CC00" }}>s </span>
+                         by Subhransu
                         </span>
                     {/* <Typography variant="h6" className={classes.title}>
                     </Typography> */}
