@@ -41,12 +41,12 @@ const Header = props => {
             <AppBar position="static" className={classes.bar}>
                 <Toolbar>
                     <span className={classes.title}>
-                        <span style={{ color: "#FFEC94" }}>A</span>
-                        <span style={{ color: "#FFAEAE" }}>r</span>
-                        <span style={{ color: "#FFF0AA" }}>t</span>
-                        <span style={{ color: "#B0E57C" }}>w</span>
-                        <span style={{ color: "#B4D8E7" }}>o</span>
-                        <span style={{ color: "#56BAEC" }}>r</span>
+                        <span style={{ color: "#D4DCFF" }}>A</span>
+                        <span style={{ color: "#7D83FF" }}>r</span>
+                        <span style={{ color: "#007FFF" }}>t</span>
+                        <span style={{ color: "#1AFFD5" }}>w</span>
+                        <span style={{ color: "#D6FF79" }}>o</span>
+                        <span style={{ color: "#C485FF" }}>r</span>
                         <span style={{ color: "#FF8000" }}>k</span>
                         <span style={{ color: "#00CC00" }}>s </span>
                          by Subhransu
