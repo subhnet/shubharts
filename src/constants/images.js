@@ -67,7 +67,7 @@ export const IMAGES =
             thumbnailWidth: 350,
             thumbnailHeight: 400,
             isSelected: true,
-            caption: "RIP Elephant"
+            caption: "Save the Elephants"
         },
         {
             art_id: 0,
