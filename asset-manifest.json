@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/shubharts/static/css/main.8ab6f918.chunk.css",
-    "main.js": "/shubharts/static/js/main.88d6a770.chunk.js",
-    "main.js.map": "/shubharts/static/js/main.88d6a770.chunk.js.map",
+    "main.js": "/shubharts/static/js/main.c7e9adc9.chunk.js",
+    "main.js.map": "/shubharts/static/js/main.c7e9adc9.chunk.js.map",
     "runtime-main.js": "/shubharts/static/js/runtime-main.4acdb637.js",
     "runtime-main.js.map": "/shubharts/static/js/runtime-main.4acdb637.js.map",
-    "static/js/2.139cd23b.chunk.js": "/shubharts/static/js/2.139cd23b.chunk.js",
-    "static/js/2.139cd23b.chunk.js.map": "/shubharts/static/js/2.139cd23b.chunk.js.map",
+    "static/js/2.98a46780.chunk.js": "/shubharts/static/js/2.98a46780.chunk.js",
+    "static/js/2.98a46780.chunk.js.map": "/shubharts/static/js/2.98a46780.chunk.js.map",
     "index.html": "/shubharts/index.html",
-    "precache-manifest.588b7649b135786581527cd887ec19ff.js": "/shubharts/precache-manifest.588b7649b135786581527cd887ec19ff.js",
+    "precache-manifest.754eddf98ffc464055a4930395b7f83f.js": "/shubharts/precache-manifest.754eddf98ffc464055a4930395b7f83f.js",
     "service-worker.js": "/shubharts/service-worker.js",
     "static/css/main.8ab6f918.chunk.css.map": "/shubharts/static/css/main.8ab6f918.chunk.css.map",
-    "static/js/2.139cd23b.chunk.js.LICENSE.txt": "/shubharts/static/js/2.139cd23b.chunk.js.LICENSE.txt",
+    "static/js/2.98a46780.chunk.js.LICENSE.txt": "/shubharts/static/js/2.98a46780.chunk.js.LICENSE.txt",
     "static/media/arya.jpg": "/shubharts/static/media/arya.825fd16c.jpg",
     "static/media/arya_tn.jpg": "/shubharts/static/media/arya_tn.66f063ac.jpg",
     "static/media/baby.jpg": "/shubharts/static/media/baby.7d123feb.jpg",
     "static/media/baby_tn.jpg": "/shubharts/static/media/baby_tn.e8ae3f29.jpg",
+    "static/media/dark.jpg": "/shubharts/static/media/dark.7453984f.jpg",
+    "static/media/dark2_tn.jpg": "/shubharts/static/media/dark2_tn.6a8dd3d2.jpg",
     "static/media/elephant.jpg": "/shubharts/static/media/elephant.7482f6c3.jpg",
     "static/media/elephant_tn.jpg": "/shubharts/static/media/elephant_tn.10195c01.jpg",
     "static/media/escape.jpg": "/shubharts/static/media/escape.6bc7be22.jpg",
@@ -47,8 +49,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4acdb637.js",
-    "static/js/2.139cd23b.chunk.js",
+    "static/js/2.98a46780.chunk.js",
     "static/css/main.8ab6f918.chunk.css",
-    "static/js/main.88d6a770.chunk.js"
+    "static/js/main.c7e9adc9.chunk.js"
   ]
 }
