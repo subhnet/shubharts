@@ -46,9 +46,20 @@ import scribbleManTn from '../images/thumbnail/scribbleman_tn.jpeg'
 import elephant from '../images/full/elephant.jpg'
 import elephantTn from '../images/thumbnail/elephant_tn.jpg'
 
+import dark from '../images/full/dark.jpg'
+import darkTn from '../images/thumbnail/dark2_tn.jpg'
 
 export const IMAGES =
     [
+        {
+            art_id: 16,
+            src: dark,
+            thumbnail: darkTn,
+            thumbnailWidth: 350,
+            thumbnailHeight: 400,
+            isSelected: true,
+            caption: "Dark"
+        },
         {
             art_id: 15,
             src: elephant,
