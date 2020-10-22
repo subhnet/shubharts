@@ -49,6 +49,9 @@ import elephantTn from '../images/thumbnail/elephant_tn.jpg'
 import dark from '../images/full/dark.jpg'
 import darkTn from '../images/thumbnail/dark2_tn.jpg'
 
+import patachitra from '../images/full/krishna-patachitra.jpg'
+import patachitraTn from '../images/full/krishna-patachitra_tn.jpg'
+
 export const IMAGES =
     [
         {
@@ -167,5 +170,11 @@ export const IMAGES =
             src: jon,
             thumbnail: jonTn,
             caption: "White Walker"
+        },
+        {
+            art_id: 14,
+            src: patachitra,
+            thumbnail: patachitraTn,
+            caption: "Radhe Krishna Patachitra"
         }
     ]
