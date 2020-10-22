@@ -50,7 +50,7 @@ import dark from '../images/full/dark.jpg'
 import darkTn from '../images/thumbnail/dark2_tn.jpg'
 
 import patachitra from '../images/full/krishna-patachitra.jpg'
-import patachitraTn from '../images/full/krishna-patachitra_tn.jpg'
+import patachitraTn from '../images/thumbnail/krishna-patachitra_tn.jpg'
 
 export const IMAGES =
     [
