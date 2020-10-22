@@ -52,6 +52,9 @@ import darkTn from '../images/thumbnail/dark2_tn.jpg'
 import patachitra from '../images/full/krishna-patachitra.jpg'
 import patachitraTn from '../images/thumbnail/krishna-patachitra_tn.jpg'
 
+import JohnWick from '../images/full/Johnwick.jpg'
+import JohnWickTn from '../images/thumbnail/Johnwick_tn.jpg'
+
 export const IMAGES =
     [
         {
@@ -176,5 +179,12 @@ export const IMAGES =
             src: patachitra,
             thumbnail: patachitraTn,
             caption: "Radhe Krishna Patachitra"
-        }
+        },
+        {
+            art_id: 15,
+            src: jochWick,
+            thumbnail: JohnWick,
+            caption: "Baba Yaga"
+        },
+        
     ]
