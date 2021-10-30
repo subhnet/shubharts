@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5bdaafbb2d8106cd52062b1200b427b",
+    "revision": "02a669ce403c8fb76db7d821ea1e060e",
     "url": "/shubharts/index.html"
   },
   {
-    "revision": "8d8ee9af75c9c76b9893",
-    "url": "/shubharts/static/css/main.8ab6f918.chunk.css"
+    "revision": "cad3c3506dc7ca861bff",
+    "url": "/shubharts/static/css/main.bacbd3c8.chunk.css"
   },
   {
-    "revision": "c920a5ef23acdc10f782",
-    "url": "/shubharts/static/js/2.f1e86283.chunk.js"
+    "revision": "030edcf63e76ca2400af",
+    "url": "/shubharts/static/js/2.f171f2c0.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/shubharts/static/js/2.f1e86283.chunk.js.LICENSE.txt"
+    "url": "/shubharts/static/js/2.f171f2c0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8d8ee9af75c9c76b9893",
-    "url": "/shubharts/static/js/main.f46c1bb6.chunk.js"
+    "revision": "cad3c3506dc7ca861bff",
+    "url": "/shubharts/static/js/main.71ac88d5.chunk.js"
   },
   {
     "revision": "9b25bf51164cd1c75d04",
@@ -46,6 +46,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e8ae3f2915a47c2319ec3b0b89db96c5",
     "url": "/shubharts/static/media/baby_tn.e8ae3f29.jpg"
+  },
+  {
+    "revision": "e07a6db0f40de28a32242460339ba478",
+    "url": "/shubharts/static/media/bigbull.e07a6db0.jpg"
+  },
+  {
+    "revision": "1aff3bfbbf9a6a2995d7c193af27f4ed",
+    "url": "/shubharts/static/media/bigbull_tn.1aff3bfb.jpg"
+  },
+  {
+    "revision": "4a49d1cb3cdfedff763863e36417a167",
+    "url": "/shubharts/static/media/butterfly.4a49d1cb.jpg"
+  },
+  {
+    "revision": "213aa0f656639a8a9057e5bae4490fea",
+    "url": "/shubharts/static/media/butterfly_tn.213aa0f6.jpg"
   },
   {
     "revision": "7453984f982292dbdafe46724d752f88",
@@ -166,6 +182,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4f86c2cbed65d386d17728059e0c0b58",
     "url": "/shubharts/static/media/scribbleman_tn.4f86c2cb.jpeg"
+  },
+  {
+    "revision": "4bf6b896c9cfb17bc98523c98df01163",
+    "url": "/shubharts/static/media/turtle.4bf6b896.jpg"
+  },
+  {
+    "revision": "8808dd61567fead3db211cb19384f5a4",
+    "url": "/shubharts/static/media/turtle_tn.8808dd61.jpg"
   },
   {
     "revision": "ef0815e06ac2e5b9ce53b02f0c4f781f",
