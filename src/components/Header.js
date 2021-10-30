@@ -13,9 +13,9 @@ const useStyles = makeStyles((theme) => ({
         color: '#fff',
         textAlign: "left",
         background: '-webkit-linear-gradient(70deg, #000000  30%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(30deg, #FF8000 60%, #FFCF75 60%)',
-        background: '-o-linear-gradient(70deg, #000000  30%, rgba(0,0,0,0) 30%), -o-linear-gradient(30deg, #FF8000 60%, #FFCF75 60%)',
-        background: '-moz-linear-gradient(70deg, #000000  30%, rgba(0,0,0,0) 30%), -moz-linear-gradient(30deg, #FF8000 60%, #FFCF75 60%)',
-        background: 'linear-gradient(70deg, #000000  30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #FF8000 60%, #FFCF75 60%)'
+        // background: '-o-linear-gradient(70deg, #000000  30%, rgba(0,0,0,0) 30%), -o-linear-gradient(30deg, #FF8000 60%, #FFCF75 60%)',
+        // background: '-moz-linear-gradient(70deg, #000000  30%, rgba(0,0,0,0) 30%), -moz-linear-gradient(30deg, #FF8000 60%, #FFCF75 60%)',
+        // background: 'linear-gradient(70deg, #000000  30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #FF8000 60%, #FFCF75 60%)'
     },
     menuButton: {
         marginRight: theme.spacing(2),
