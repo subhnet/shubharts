@@ -1,9 +1,7 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
+import { makeStyles } from '@material-ui/core/styles';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import IconButton from '@material-ui/core/IconButton';
+import React from 'react';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -49,8 +47,8 @@ const Header = props => {
                         <span style={{ color: "#C485FF" }}>r</span>
                         <span style={{ color: "#FF8000" }}>k</span>
                         <span style={{ color: "#00CC00" }}>s </span>
-                         by Subhransu
-                        </span>
+                        by Subhransu
+                    </span>
                     {/* <Typography variant="h6" className={classes.title}>
                     </Typography> */}
                 </Toolbar>
