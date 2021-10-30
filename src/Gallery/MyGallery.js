@@ -6,6 +6,8 @@ import Dialog from '@material-ui/core/Dialog';
 import { IMAGES } from './../constants/images';
 import { useWindowSize } from './../util/useWindowSize';
 import ReactGa from 'react-ga';
+import './gallery.css';
+import CloseIcon from '@material-ui/icons/Close';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -80,11 +82,36 @@ const MyGallery = props => {
         return 3;
     }
 
+    const [model, setModel] = useState(false);
+    const [tempImgSrc, setTempImgSrc] = useState('');
 
+    const getImage = (imgSrc) => {
+        setTempImgSrc(imgSrc);
+        setModel(true);
+
+    }
 
     return (
-        <div className={classes.root}>
-            <GridList
+        <>
+            <div className={model ? "model open" : "model"}>
+                <img src={tempImgSrc} />
+                <CloseIcon onClick={() => setModel(false)} />
+            </div>
+            <div className='subh-gallery'>
+
+                {
+                    IMAGES.map((item, index) => {
+                        return (
+                            <div className="subh-gallery-item" key={index} onClick={
+                                () => getImage(item.src)
+                            }>
+                                <img src={item.thumbnail} style={{ width: '100%' }}></img>
+                            </div>
+                        )
+                    })
+                }
+
+                {/* <GridList
                 cellHeight={250}
                 spacing={40}
                 cols={getGridListCols()}
@@ -97,20 +124,20 @@ const MyGallery = props => {
                         className={classes.icon}
                     >
                         <img
-                            src={tile.thumbnail}
+                        src={tile.thumbnail}
                             alt="image_alt"
                             className={classes.thumbnail}
                             onClick={() => handleOpenImage(index)}
                         />
                         <GridListTileBar
-                            title={tile.caption}
+                        title={tile.caption}
                             onClick={() => handleOpenImage(index)}
                         />
-                    </GridListTile>
-                ))}
+                        </GridListTile>
+                        ))}
             </GridList>
             <Dialog
-                className={classes.dialog}
+            className={classes.dialog}
                 classes={{
                     paper: classes.dialog
                 }}
@@ -125,7 +152,7 @@ const MyGallery = props => {
             // scroll={'body'}
             >
                 <Image>
-
+                
                     <img
                         src={IMAGES[currentIndex].src}
                         alt="image_alt"
@@ -136,8 +163,9 @@ const MyGallery = props => {
                         }}
                     />
                 </Image>
-            </Dialog>
-        </div>
+            </Dialog> */}
+            </div>
+        </>
     )
 }
 

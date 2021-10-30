@@ -182,9 +182,9 @@ export const IMAGES =
         },
         {
             art_id: 15,
-            src: jochWick,
+            src: JohnWick,
             thumbnail: JohnWick,
             caption: "Baba Yaga"
         },
-        
+
     ]
