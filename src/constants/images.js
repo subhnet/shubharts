@@ -55,6 +55,25 @@ import patachitraTn from '../images/thumbnail/krishna-patachitra_tn.jpg'
 import JohnWick from '../images/full/Johnwick.jpg'
 import JohnWickTn from '../images/thumbnail/Johnwick_tn.jpg'
 
+import bigbull from '../images/full/bigbull.jpg';
+import bigbullTn from '../images/thumbnail/bigbull_tn.jpg';
+
+// import parrot from '../images/full/parrot.jpg';
+// import parrotTn from '../images/thumbnail/parrot_tn.jpg';
+
+
+import turtle from '../images/full/turtle.jpg';
+import turtleTn from '../images/thumbnail/turtle_tn.jpg';
+
+
+// import peacock from '../images/full/peacock.jpg';
+// import peacockTn from '../images/thumbnail/peacock_tn.jpg';
+
+
+import butterfly from '../images/full/butterfly.jpg';
+import butterflyTn from '../images/thumbnail/butterfly_tn.jpg';
+
+
 export const IMAGES =
     [
         {
@@ -183,8 +202,38 @@ export const IMAGES =
         {
             art_id: 15,
             src: JohnWick,
-            thumbnail: JohnWick,
+            thumbnail: JohnWickTn,
             caption: "Baba Yaga"
         },
+        {
+            art_id: 16,
+            src: bigbull,
+            thumbnail: bigbullTn,
+            caption: "Big Bull"
+        },
+        // {
+        //     art_id: 17,
+        //     src: parrot,
+        //     thumbnail: parrotTn,
+        //     caption: "Parrot"
+        // },
+        {
+            art_id: 18,
+            src: turtle,
+            thumbnail: turtleTn,
+            caption: "Sea Turtle"
+        },
+        // {
+        //     art_id: 19,
+        //     src: peacock,
+        //     thumbnail: peacockTn,
+        //     caption: "Peacock"
+        // },
+        {
+            art_id: 20,
+            src: butterfly,
+            thumbnail: butterflyTn,
+            caption: "Butterfly"
+        }
 
     ]
