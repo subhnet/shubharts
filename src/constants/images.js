@@ -74,7 +74,7 @@ import butterfly from '../images/full/butterfly.jpg';
 import butterflyTn from '../images/thumbnail/butterfly_tn.jpg';
 
 import daredevil from "../images/full/daredevil.jpg";
-import daredevilTn from "../images/full/daredevil_tn.jpg";
+import daredevilTn from "../images/thumbnail/daredevil_tn.jpg";
 
 
 export const IMAGES =
