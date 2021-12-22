@@ -73,6 +73,9 @@ import turtleTn from '../images/thumbnail/turtle_tn.jpg';
 import butterfly from '../images/full/butterfly.jpg';
 import butterflyTn from '../images/thumbnail/butterfly_tn.jpg';
 
+import daredevil from "../images/full/daredevil.jpg";
+import daredevilTn from "../images/full/daredevil_tn.jpg";
+
 
 export const IMAGES =
     [
@@ -234,6 +237,12 @@ export const IMAGES =
             src: butterfly,
             thumbnail: butterflyTn,
             caption: "Butterfly"
+        },
+        {
+            art_id: 21,
+            src: daredevil,
+            thumbnail: daredevilTn,
+            caption: "Daredevil"
         }
 
     ]
