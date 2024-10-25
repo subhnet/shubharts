@@ -1,25 +1,15 @@
-import React, {useEffect} from 'react';
-import './App.css';
-import MyGallery from './Gallery/MyGallery';
-import Header from './components/Header';
-import ReactGa from 'react-ga';
+// src/App.jsx
+import React from 'react';
+import Gallery from './gallery';
+import Header from './Header';
 
-const App = props => {
-
-  useEffect(() => {
-    ReactGa.initialize('UA-133689721-1');
-    
-    //report page view
-    ReactGa.pageview('/shubharts')
-  }, [])
-
-  return (
-    <div className="App">
-      <Header />
-      <MyGallery {...props} />
-    </div>
-  );
+function App() {
+    return (
+        <div className="min-h-screen bg-gray-100">
+            <Header />
+            <Gallery />
+        </div>
+    );
 }
 
-
-export default App
+export default App;
